@@ -42,7 +42,7 @@ public class BehaviouralPatterns
         
         System.out.println("cost: " + shippingCost);
         }
-    */
+    
     /*
     Template demo.
     public static void main(String[] args)
