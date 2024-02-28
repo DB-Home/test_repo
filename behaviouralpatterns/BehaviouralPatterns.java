@@ -17,7 +17,6 @@ public class BehaviouralPatterns
     {
     /*
     Visitor demo using the visitor
-    */
     public static void main(String[] args)
         {
         PartsOrder order = new PartsOrder();
@@ -28,8 +27,10 @@ public class BehaviouralPatterns
         order.accept(new AtvPartsShippingVisitor());
         order.accept(new AtvPartsDisplayVisitor());
         }
+    */
     /*
     Visitor demo... without the visitor
+    */
     public static void main(String[] args)
         {
         PartsOrder order = new PartsOrder();
